@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    transition: 750ms ease-in-out;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Anybody', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#twitter-logo {
+    height: 30px;
+    width: 38px;
+    opacity: 70%;
+    transition: 200ms ease-out;
+    margin-right: 120px;
+}
+
+#twitter-logo:hover {
+    opacity: 100%;
+}
+
+
+.quote-box {
+    height: 350px;
+    width: 1000px;
+    text-align: center;
+
+}
+
+.quote-text {
+    font-size: 45px;
+    opacity: 45%;
+    transition: 200ms ease-in-out;
+}
+
+#author {
+    font-size: 35px;
+}
+
+.new-quote {
+    margin-left: 120px;
+    border: 1px solid hsla(0, 0%, 0%, 0.45);
+    background-color: transparent;
+    font-size: 14px;
+    color: hsla(0, 0%, 0%, 0.65);
+    ;
+    height: 35px;
+    width: 90px;
+    border-radius: 5%;
+    transition: 100ms ease-in-out;
+}
+
+.new-quote:hover {
+    border: 2px solid hsla(0, 0%, 0%, 0.65);
+    color: hsla(0, 0%, 0%, 0.85);
+}
